@@ -1,0 +1,6 @@
+{
+  "name": "NutriBite",
+  "description": "Meal planner and macro tracker with dynamic macro progress rings, weekly meal schedules, auto-generated grocery checklists, and bioscience metabolic insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

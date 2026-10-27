@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Macro Progress Arcs around the food icon (inside the 66dp safe zone) -->
+    <!-- Protein Arc (Coral Red) -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 38,34 A 24,24 0 0,1 70,34" />
+    <!-- Carbs Arc (Warm Amber Gold) -->
+    <path
+        android:strokeColor="#FFB703"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 77,44 A 24,24 0 0,1 72,70" />
+    <!-- Fats Arc (Teal/Cyan) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 64,77 A 24,24 0 0,1 36,70" />
+    
+    <!-- Central Fresh Apple / Bowl & Sprout Motif (White filled) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,44 C49,38 42,37 38,41 C33,45 32,53 35,60 C38,68 47,75 54,77 C61,75 70,68 73,60 C76,53 75,45 70,41 C66,37 59,38 54,44 Z" />
+    <!-- Sprout leaf on top in bright mint -->
+    <path
+        android:fillColor="#86EFAC"
+        android:pathData="M54,42 C54,36 59,32 66,31 C66,37 62,41 54,42 Z" />
+</vector>
