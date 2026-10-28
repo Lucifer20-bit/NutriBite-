@@ -8,11 +8,17 @@ import com.example.ui.theme.SnackMint
 
 enum class MealType(
     val displayName: String,
-    val suggestedCalorieRatio: Float,
+    val suggestedPercent: Int,
     val color: Color
 ) {
-    BREAKFAST("Breakfast", 0.25f, BreakfastSunrise),
-    LUNCH("Lunch", 0.35f, LunchSun),
-    DINNER("Dinner", 0.30f, DinnerSunset),
-    SNACKS("Snacks", 0.10f, SnackMint)
+    BREAKFAST("Breakfast", 25, BreakfastSunrise),
+    LUNCH("Lunch", 35, LunchSun),
+    DINNER("Dinner", 30, DinnerSunset),
+    SNACKS("Snacks", 10, SnackMint);
+
+    companion object {
+        fun fromString(value: String): MealType {
+            return entries.firstOrNull { it.name.equals(value, ignoreCase = true) } ?: BREAKFAST
+        }
+    }
 }
